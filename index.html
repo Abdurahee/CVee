@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Display">
+      
+
+    
+<div id="myDateDisplay"></div>
+<div id="myClockDisplay" class="clock"></div>
+ </div>
+
+    <section class="container">
+        <div class="heading">
+          <img class="img" src="images/blank-792125_1280.jpg" alt="" >
+          <h3 class="heading__title">To-Do List</h3>
+        </div>
+        <form class="form">
+          <div>
+            <label class="form__label" for="todo"><p class="sty">~ Today's schedules~<p></label>
+            <input class="form__input"
+                 type="text"
+                 id="todo"
+                 name="to-do"
+                 size="30">
+            <button class="button">
+              +
+            </button>
+          </div>
+        </form>
+        <div>
+          <ul class="toDoList">
+          </ul>
+        </div>
+      </section>
+      <script src="script.js"></script>  
+</body>
+</html>
