@@ -6,7 +6,9 @@ html {
     background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
     min-height: 1000px;
     font-family: 'helvetica neue'; 
-justify-content: center;display: flex;
+justify-content: center;
+display: flex;
+padding-left: 150px;
 
 }
 
@@ -40,6 +42,7 @@ margin-top: 25px;
   box-shadow: 4px 3px 7px 2px #00000040;
   padding: 1rem;
   box-sizing: border-box;
+  padding-left:30px ;
 }
 
 .heading {
